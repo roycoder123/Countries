@@ -106,25 +106,31 @@ public void submitButtonClick(){
 if(value == 0){
   if(input.getText().contentEquals(c.getName())) {
     outputLabel.setText("Correct");
+    input.setText("");
   }
   else {
     outputLabel.setText("False");
+    input.setText("");
   }
 }
 if(value == 1) {
   if(input.getText().contentEquals(c.getCapital())) {
     outputLabel.setText("Correct");
+    input.setText("");
   }
   else {
     outputLabel.setText("False");
+    input.setText("");
   }
 }
 if(value == 2){
   if(input.getText().contentEquals(c.getLanguage())) {
     outputLabel.setText("Correct");
+    input.setText("");
   }
   else {
     outputLabel.setText("False");
+    input.setText("");
   }
 }
 }
